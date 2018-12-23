@@ -1,0 +1,7 @@
+{
+  "name": "element-admin",
+  "version": 2,
+  "alias": "element-admin",
+  "builds": [{ "src": "**", "use": "@now/static" }],
+  "routes": [{ "src": "/.*", "dest": "/index.html" }]
+}
