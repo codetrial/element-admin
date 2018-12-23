@@ -23,37 +23,21 @@ yarn run serve
 
 ## Core Features
 
-### Minimal dependencies
+**:book: Minimal dependencies**: Only import the official Vue.js library and the ElementUI components to give you the freedom to play.
 
-Only import the official Vue.js library and the ElementUI components to give you the freedom to play.
+**:file_folder: Project Structure**: According to the actual experience of the development, a reasonable and clear directory structure was designed.
 
-### Project Structure
+**:tophat: View Layout**: Use Vue Router nested routes and ElementUI built-in components for application's layout.
 
-According to the actual experience of the development, a reasonable and clear directory structure was designed.
+**:cyclone: Data Processing**: Add separate api and service layers to abstract the business logic from the components.
 
-### View Layout
+**:lock: Authorization**: All routes support configurable interceptors. User login authentication and role authentication are currently built in.
 
-Use Vue Router nested routes and ElementUI built-in components for application's layout.
+**:calendar: List Example**: A complete list page example with field queries (filtering), field sorting, list turning, batch operations, and more.
 
-### Data Processing
+**:ghost: Form Example**: A complete example of a form page with forms validation, submission, and more.
 
-Add separate api and service layers to abstract the business logic from the components.
-
-### Authorization
-
-All routes support configurable interceptors. User login authentication and role authentication are currently built in.
-
-### List Example
-
-A complete list page example with field queries (filtering), field sorting, list turning, batch operations, and more.
-
-### Form Example
-
-A complete example of a form page with forms validation, submission, and more.
-
-### Error Pages
-
-Built-in simple 403, 404, and 500 error pages.
+**:bomb: Error Pages**: Built-in simple 403, 404, and 500 error pages.
 
 ## Contributing
 
