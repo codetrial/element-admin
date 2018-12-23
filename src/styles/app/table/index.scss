@@ -1,0 +1,37 @@
+.standard-table {
+  .standard-table-filter {
+    margin-bottom: 20px;
+  }
+
+  .standard-table-toolbar {
+    margin-bottom: 20px;
+
+    .standard-table-toolbar__row {
+      display: flex;
+
+      .standard-table-toolbar__buttons {
+        flex-grow: 1;
+      }
+
+      .standard-table-toolbar__pagination {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .standard-table-list {
+    .standard-table-list__expand {
+      font-size: 0;
+
+      label {
+        width: 120px;
+        color: #99a9bf;
+      }
+      .el-form-item {
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 33%;
+      }
+    }
+  }
+}

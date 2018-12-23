@@ -1,0 +1,19 @@
+.standard-form-container {
+  .standard-form {
+    width: 600px;
+
+    .el-radio-group .el-radio,
+    .el-checkbox-group .el-checkbox {
+      float: left;
+      width: 160px;
+      padding-right: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .el-radio-group .el-radio + .el-radio,
+    .el-checkbox-group .el-checkbox + .el-checkbox {
+      margin-left: 0;
+    }
+  }
+}
