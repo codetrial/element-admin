@@ -4,11 +4,12 @@
       <el-card shadow="hover">
         <div>
           <p>
-            Hi，开发者，欢迎使用 @codetrial/vue-cli-plugin-element 搭建你的后台！
+            Hi，开发者，欢迎使用 @codetrial/vue-cli-plugin-element 插件搭建你的后台！
             <a
               target="_blank"
               href="https://github.com/codetrial/vue-cli-plugin-element"
-            >查看文档</a>
+            >插件源码</a> |
+            <a target="_blank" href="https://codetrial.github.io/element-admin">插件文档</a>
           </p>
         </div>
       </el-card>

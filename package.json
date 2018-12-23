@@ -1,6 +1,16 @@
 {
   "name": "element-admin",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "A dead simple but powerful vue admin with Vue CLI 3 and ElementUI.",
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "vue-cli-plugin",
+    "element",
+    "element-ui",
+    "admin",
+    "dashboard"
+  ],
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -33,5 +43,15 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.17"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codetrial/element-admin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codetrial/element-admin/issues"
+  },
+  "homepage": "https://github.com/codetrial/element-admin#readme",
+  "author": "felixpy",
+  "license": "MIT"
 }
