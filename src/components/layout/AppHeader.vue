@@ -9,7 +9,7 @@
     >
       <el-menu-item index="/">首页</el-menu-item>
       <template v-if="user.id">
-        <el-submenu index="/example">
+        <el-submenu index="/example" :show-timeout="300" :hide-timeout="0">
           <template slot="title">示例模块</template>
           <el-menu-item index="/example">列表页</el-menu-item>
           <el-menu-item index="/example/new">表单页</el-menu-item>
