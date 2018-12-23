@@ -12,6 +12,6 @@
       "src": "^/(favicon|manifest|precache|service-worker|robots)(.*)",
       "dest": "/$1$2"
     },
-    { "src": "/.*", "dest": "/index.html" }
+    { "src": ".*", "dest": "/index.html" }
   ]
 }
