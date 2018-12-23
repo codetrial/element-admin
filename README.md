@@ -8,7 +8,7 @@ A dead simple but powerful vue admin with Vue CLI 3 and ElementUI.
 
 ## Docs
 
-[Docs](https://codetrial.github.io/element-admin) | [Live Demo](https://element-admin.felixpy.com)
+[Live Demo](https://element-admin.now.sh) | [Docs](https://codetrial.github.io/element-admin)
 
 ## Screen Capture
 
