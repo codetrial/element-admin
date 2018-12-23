@@ -23,14 +23,14 @@ yarn run serve
 
 ## Core Features
 
-- :white_check_mark: Minimal dependencies
-- :white_check_mark: Project Structure
-- :white_check_mark: View Layout
-- :white_check_mark: Data Processing Layer
-- :white_check_mark: Authorization
-- :white_check_mark: Error Pages
-- :white_check_mark: List Example
-- :white_check_mark: Form Example
+- :ghost: Minimal dependencies
+- :ghost: Project Structure
+- :ghost: View Layout
+- :ghost: Data Processing Layer
+- :ghost: Authorization
+- :ghost: Error Pages
+- :ghost: List Example
+- :ghost: Form Example
 
 ## Contributing
 
