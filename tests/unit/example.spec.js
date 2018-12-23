@@ -1,12 +1,9 @@
 import { shallowMount } from '@vue/test-utils'
-import HelloWorld from '@/components/HelloWorld.vue'
+import AppFooter from '@/components/layout/AppFooter.vue'
 
-describe('HelloWorld.vue', () => {
-  it('renders props.msg when passed', () => {
-    const msg = 'new message'
-    const wrapper = shallowMount(HelloWorld, {
-      propsData: { msg }
-    })
-    expect(wrapper.text()).toMatch(msg)
+describe('AppFooter.vue', () => {
+  it('render app footer', () => {
+    const wrapper = shallowMount(AppFooter, {})
+    expect(wrapper.text()).toMatch('Copyright')
   })
 })

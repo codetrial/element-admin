@@ -1,6 +1,6 @@
 {
-  "name": "winter-app",
-  "short_name": "winter-app",
+  "name": "element-admin",
+  "short_name": "element-admin",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
