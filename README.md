@@ -23,13 +23,13 @@ yarn run serve
 
 ## Core Features
 
-- :ghost: Minimal dependencies
-- :ghost: Project Structure
-- :ghost: View Layout
-- :ghost: Data Processing Layer
-- :ghost: Authorization
-- :ghost: Error Pages
-- :ghost: List Example
+- :camera: Minimal dependencies
+- :tv: Project Structure
+- :telephone_receiver: View Layout
+- :pager: Data Processing Layer
+- :watch: Authorization
+- :radio: Error Pages
+- :mag_right: List Example
 - :ghost: Form Example
 
 ## Contributing
