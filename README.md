@@ -4,6 +4,8 @@
 
 A dead simple but powerful vue admin with Vue CLI 3 and ElementUI.
 
+This project is built by a magic vue cli plugin - [@codetrial/vue-cli-plugin-element](https://github.com/codetrial/vue-cli-plugin-element)
+
 :us: English | [:cn: 简体中文](README.zh-CN.md)
 
 ## Docs
@@ -16,9 +18,18 @@ A dead simple but powerful vue admin with Vue CLI 3 and ElementUI.
 
 ## Quick Start
 
+### Using Git
+
 ```bash
+# clone this repository
 yarn install
 yarn run serve
+```
+
+### Using Vue CLI
+
+```bash
+vue create --preset codetrial/vue-cli-plugin-element your-project
 ```
 
 ## Core Features
