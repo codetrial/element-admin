@@ -66,7 +66,7 @@
             <a target="_blank" :href="scope.row.url">{{ scope.row.name }}</a>
           </template>
         </el-table-column>
-        <el-table-column prop="typeText" label="类型" min-width="120"></el-table-column>
+        <el-table-column prop="typeText" label="类型" min-width="80"></el-table-column>
         <el-table-column
           prop="statusText"
           label="状态 (可筛选)"
@@ -76,8 +76,8 @@
         ></el-table-column>
         <el-table-column prop="updateUser" label="更新用户 ID" min-width="120"></el-table-column>
         <el-table-column prop="updateUserName" label="更新用户" min-width="120"></el-table-column>
-        <el-table-column prop="updateTime" label="更新时间" min-width="240"></el-table-column>
-        <el-table-column label="操作" min-width="100">
+        <el-table-column prop="updateTime" label="更新时间" min-width="200"></el-table-column>
+        <el-table-column label="操作" min-width="80">
           <template slot-scope="scope">
             <el-button type="text" size="small" @click="showExample(scope.row)">查看</el-button>
           </template>
