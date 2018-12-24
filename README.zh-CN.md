@@ -4,6 +4,8 @@
 
 一个简约而不简单的基于 Vue CLI 3 和 ElementUI 的中后台管理系统。
 
+此项目由一个不可思议的 vue cli 插件构建 - [@codetrial/vue-cli-plugin-element](https://github.com/codetrial/vue-cli-plugin-element)
+
 :cn: 简体中文 | [:us: English](README.md)
 
 ## 文档
@@ -16,9 +18,18 @@
 
 ## 快速开始
 
+### 使用 Git
+
 ```bash
+# 克隆这个仓库
 yarn install
 yarn run serve
+```
+
+### 使用 Vue CLI
+
+```bash
+vue create --preset codetrial/vue-cli-plugin-element your-project
 ```
 
 ## 核心功能
