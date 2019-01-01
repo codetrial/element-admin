@@ -2,13 +2,15 @@
   .standard-form {
     width: 600px;
 
+    .el-radio-group,
+    .el-checkbox-group {
+      line-height: 40px;
+    }
+
     .el-radio-group .el-radio,
     .el-checkbox-group .el-checkbox {
-      float: left;
-      width: 160px;
-      padding-right: 20px;
-      margin: 0;
-      padding: 0;
+      line-height: 40px;
+      margin-right: 30px;
     }
 
     .el-radio-group .el-radio + .el-radio,
